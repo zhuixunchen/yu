@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+}
+html{
+	width: 100%;
+	height: 100%;
+	font-size: 10px;
+}
+body{
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	background-color: #efeff4;
+}
+.header{
+	width: 100%;
+	background-color: #0894ec;
+}
+.logo{
+	float: left;
+}
+.header:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.header input{
+	outline: none;
+	border: 0;
+}
+.header form{
+	width: 45%;
+	margin:0 auto;
+}
+.text{
+	width: 60%;
+	height: 2.5rem;	
+	margin-top: 0.85rem;
+	border-radius: 0.2rem;
+	padding-left:0.5rem; 
+}
+.btn{
+	width: 5rem;
+	height: 3rem;
+	background-color: #e88c0c;
+	color: #fff;
+	font-size: 1.6rem;
+	border-radius: 0.2rem;
+	cursor: pointer;
+	-webkit-box-shadow: 0.1rem 0.1rem 0.1rem #666;  
+  	-moz-box-shadow: 0.1rem 0.1rem 0.1rem #666;  
+ 	box-shadow: 0.1rem 0.1rem 0.1rem #666; 
+}
+.header a{
+	width: 5rem;
+	height: 3rem;
+	line-height: 3rem;
+	float: right;
+	color: #fff;
+	font-size: 1.6rem;
+	text-align: center;
+	margin-top: -2.8rem;
+	margin-right: 0.5rem;
+}
+.nav{
+	width: 100%;
+	height: 35rem;
+	background-color: #fff;
+	margin-top: 1rem;
+}
+.nav h2{
+	height: 3rem;
+	line-height: 3rem;
+	font-weight: 400;
+	font-size: 1.8rem;
+	padding-left: 2rem;
+	border-bottom: 0.1rem solid #e1e1e1;
+}
+.nav-list ul li{
+	float: left;
+	width: 33.33%; 
+	height: 15rem;
+}
+.nav-list ul li a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.nav-list ul li img{
+	display: block;
+	margin: 0 auto;
+	margin-top: 2rem;
+}
+.nav-list ul li p{
+	text-align: center;
+	color: #8d8d8d;
+	font-size: 1.8rem;
+	margin-top: 1rem;
+}
+.banner{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 1rem;
+	position: relative;
+}
+.banner div:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+.banner>div{
+	width: 500%;
+	/* transition: all 0.8s linear; */
+}
+.banner>div a{
+	float: left;
+	width: 20%;
+	height: 100%;
+}
+.banner>div img{
+	width: 100%;
+	height: 100%;
+}
+.abtn{
+	position: absolute;
+	bottom: 1rem;
+	left: 50%;
+	margin-left: -2.5rem;
+}
+.abtn li{
+	float: left;
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	background-color: #ccc;
+	opacity: 0.8;
+	filter:opacity(80);
+	margin-right: 0.5rem;
+}
+.abtn .special{
+	background-color: #0894ec;
+}
